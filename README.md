@@ -2,21 +2,29 @@
 # Date:
 # AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
+
 # DESIGN STEPS:
 ## Step 1:
 Requirement collection.
+
 ## Step 2:
 Creating the layout using HTML and CSS.
+
 ## Step 3:
 Updating the sample content.
+
 ## Step 4:
 Choose the appropriate style and color scheme.
+
 ## Step 5:
 Validate the layout in various browsers.
+
 ## Step 6:
 Validate the HTML code.
+
 ## Step 7:
 Publish the website in the given URL.
+
 # PROGRAM:
 resgpt.html
 ```
@@ -94,6 +102,7 @@ resgpt.html
             background: linear-gradient(to right, goldenrod, gold);
             transform: scale(1.1);
         }
+
         main {
             flex: 1;
             padding: 40px;
@@ -105,6 +114,7 @@ resgpt.html
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
             animation: fadeInUp 1.5s ease-in-out;
         }
+
         main p {
             font-size: 24px;
             font-weight: 400;
@@ -112,6 +122,7 @@ resgpt.html
             color: #f9f9f9;
             text-shadow: 1px 1px 3px black;
         }
+
         footer {
             background: rgba(0, 0, 0, 0.8); /* Transparent footer */
             color: white;
@@ -120,10 +131,12 @@ resgpt.html
             border-top: 2px solid goldenrod;
             box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
         }
+
         footer p {
             margin: 5px 0;
             font-size: 16px;
         }
+
         footer a {
             color: goldenrod;
             text-decoration: none;
@@ -131,25 +144,31 @@ resgpt.html
             font-size: 18px;
             transition: color 0.3s ease-in-out;
         }
+
         footer a:hover {
             color: #d4af37;
         }
+
         @media (max-width: 768px) {
             header h1 {
                 font-size: 50px;
                 letter-spacing: 5px;
             }
+
             nav a {
                 font-size: 16px;
                 padding: 8px 12px;
             }
+
             main p {
                 font-size: 20px;
             }
+
             footer p, footer a {
                 font-size: 16px;
             }
         }
+
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -159,6 +178,7 @@ resgpt.html
                 opacity: 1;
             }
         }
+
         @keyframes slideDown {
             from {
                 transform: translateY(-100%);
@@ -169,6 +189,7 @@ resgpt.html
                 opacity: 1;
             }
         }
+
         @keyframes fadeInUp {
             from {
                 transform: translateY(20px);
@@ -302,10 +323,12 @@ Menu enhanced.html
     </style>
 </head>
 <body>
+
 <header>
     <h1>Delicious Indian Bites</h1>
     <p>Your favorite spot for authentic Indian non-veg meals</p>
 </header>
+
 <div class="menu-section">
     <h2>Biriyani</h2>
     <div class="menu-grid">
@@ -341,6 +364,7 @@ Menu enhanced.html
         </div>
     </div>
 </div>
+
 <div class="menu-section">
     <h2>Starters</h2>
     <div class="menu-grid">
@@ -370,6 +394,7 @@ Menu enhanced.html
         </div>
     </div>
 </div>
+
 <div class="menu-section">
     <h2>Tandoori and Kebab</h2>
     <div class="menu-grid">
@@ -405,6 +430,7 @@ Menu enhanced.html
         </div>
     </div>
 </div>
+
 <div class="menu-section">
     <h2>Curries</h2>
     <div class="menu-grid">
@@ -432,8 +458,15 @@ Menu enhanced.html
             <p>Fresh prawns cooked in a spicy, tangy gravy.</p>
             <div class="price">₹500</div>
         </div>
+        <div class="menu-item">
+            <img src="chettinad-chicken-gravy.jpg" alt="Chettinad Chicken Gravy">
+            <h3>Chettinad Chicken Gravy</h3>
+            <p>Chicken cooked in a spicy and flavorful Chettinad gravy.</p>
+            <div class="price">₹380</div>
+        </div>
     </div>
 </div>
+
 <div class="menu-section">
     <h2>Breads</h2>
     <div class="menu-grid">
@@ -456,6 +489,12 @@ Menu enhanced.html
             <div class="price">₹80</div>
         </div>
         <div class="menu-item">
+            <img src="paratta.avif" alt="Parotta">
+            <h3>Parotta</h3>
+            <p>Flaky and soft South Indian flatbread.</p>
+            <div class="price">₹60</div>
+        </div>
+        <div class="menu-item">
             <img src="kizhi-paratta.jpeg" alt="Kizhi Parotta">
             <h3>Kizhi Parotta</h3>
             <p>Layered parotta wrapped in banana leaf.</p>
@@ -469,6 +508,7 @@ Menu enhanced.html
         </div>
     </div>
 </div>
+
 <div class="menu-section">
     <h2>Desserts</h2>
     <div class="menu-grid">
@@ -477,6 +517,18 @@ Menu enhanced.html
             <h3>Gulab Jamun</h3>
             <p>Sweet, syrup-soaked deep-fried dough balls.</p>
             <div class="price">₹100</div>
+        </div>
+        <div class="menu-item">
+            <img src="rasa-gulla.jpg" alt="Rasa Gulla">
+            <h3>Rasa Gulla</h3>
+            <p>Soft cheese balls soaked in sugar syrup.</p>
+            <div class="price">₹120</div>
+        </div>
+        <div class="menu-item">
+            <img src="badham-keer.jpg" alt="Badham Keer">
+            <h3>Badham Keer</h3>
+            <p>Sweet almond porridge with milk and sugar.</p>
+            <div class="price">₹150</div>
         </div>
         <div class="menu-item">
             <img src="rasamali.jpg" alt="Rasamalai">
@@ -513,8 +565,11 @@ Menu enhanced.html
 </html>
 ```
 Administration enhanced.html
-```
+```<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chefs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -526,18 +581,31 @@ Administration enhanced.html
             font-family: Arial, sans-serif;
             background-color: #f8f8f8;
         }
+
         /* Header Section */
         header {
             text-align: center;
             background-color: #b5651d;
             padding: 20px 0;
         }
+
         header h1 {
             font-family: "Caveat", cursive;
             font-size: 50px;
             color: white;
             margin: 0;
         }
+
+        /* Chef Profiles Section */
+        .chefs-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
         .chef-card {
             background-color: white;
             border-radius: 10px;
@@ -546,23 +614,35 @@ Administration enhanced.html
             text-align: center;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
         .chef-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    .chef-details {
+        }
+
+        .chef-card img {
+            width: 100%;
+            object-fit: contain; /* Ensure the entire image fits without cropping */
+            max-height: 300px; /* Allow flexibility but limit height */
+        }
+
+        .chef-details {
             padding: 20px;
         }
+
         .chef-details h1 {
             font-size: 20px;
             color: #b5651d;
             margin: 10px 0;
         }
+
         .chef-details h2,
         .chef-details h3 {
             font-size: 16px;
             color: #555;
             margin: 5px 0;
         }
+
         /* Footer Section */
         footer {
             text-align: center;
@@ -571,16 +651,19 @@ Administration enhanced.html
             padding: 10px 0;
             margin-top: 40px;
         }
+
         footer p {
             margin: 0;
         }
     </style>
 </head>
 <body>
+
     <!-- Header Section -->
     <header>
         <h1>Our Chefs</h1>
     </header>
+
     <!-- Chefs Profiles Section -->
     <div class="chefs-container">
         <div class="chef-card">
@@ -632,24 +715,140 @@ Administration enhanced.html
             </div>
         </div>
     </div>
+
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Foodie's Paradise. All rights reserved.</p>
     </footer>
+
 </body>
+</html>
+```
+contact gpt.html
+```
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <title>Contact Us</title>
+        <style>
+            #n1{
+                position: relative;
+                color: orangered;
+                font-size: 60px;
+                padding-left: 380px;
+                left: 0px;
+                top: 190px;
+                letter-spacing: 5px;
+            }
+            body{
+                background-image: url(Contact\ us\ img.jpg);
+                background-repeat: no-repeat;
+                background-size: 1700px 950px;
+            }
+            #n2{
+                position:relative;
+                color: aliceblue;
+                font-size: 80px;
+                padding-left: 480px;
+                top: 140px;
+                letter-spacing: 3px;
+                font-family: "Dancing Script", cursive;
+            }
+            #n3{
+                position: relative;
+                color: aliceblue;
+                font-size: 35px;
+                top: 255px;
+                padding-left: 240px;
+            }
+            #n4{
+                position: relative;
+                color: orangered;
+                font-size:31px;
+                top: 205px;
+                padding-left: 170px;
+                letter-spacing: 2px;
+            }
+            #n5{
+                position: relative;
+                color: aliceblue;
+                font-size: 35px;
+                top: 60px;
+                padding-left: 680px;
+            }
+            #n6{
+                position: relative;
+                color: orangered;
+                font-size:35px;
+                top: 8px;
+                padding-left: 505px;
+            }
+            #n7{
+                position: relative;
+                color: aliceblue;
+                font-size: 35px;
+                bottom: 135px;
+                padding-left: 1155px;
+            }
+            #n8{
+                position: relative;
+                color: orangered;
+                font-size: 31px;
+                bottom: 187px;
+                padding-left: 950px;
+                text-align: center;
+            }
+
+            /* Add styles for the anchor tags */
+            a {
+                color: orangered;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            /* Add a hover effect to indicate clickable links */
+            a:hover {
+                text-decoration: underline;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1 id="n1">PERFECTLY BALANCED</h1>
+        <h2 id="n2">Quality and Taste</h2>
+        <h5 id="n3">Phone:</h5>
+        <h5 id="n4">
+            <a href="tel:+914435443545">+91 4435443545</a>
+        </h5>
+        <h5 id="n5">Email:</h5>
+        <h5 id="n6">
+            <a href="mailto:foodierestaurant@foodie.com"><b>foodierestaurant@foodie.com</b></a>
+        </h5>
+        <h5 id="n7">Location:</h5>
+        <h5 id="n8">
+            <a href="https://www.google.com/maps?q=1,+Foodie+restaurant+OMR+street+Perungudi"><b>1, Foodie restaurant OMR street Perungudi</b></a>
+        </h5>
+    </body>
 </html>
 ```
 # OUTPUT:
 ## HOME
 ![HOme](<Screenshot 2024-12-03 082026.png>)
 ## MENU
+
 ![alt text](<image (2).png>)
+
 ![alt text](<image (3).png>)
-![alt text](<image (4).png>)
+
 ![alt text](<image (5).png>)
+
 ![alt text](<image (6).png>)
 ## ADMINISTRATION
+
 ![Administration](<image (7).png>)
 ## CONTACT 
 ![Contact](<Screenshot 2024-12-03 083355.png>)
 # RESULT:
-The program for designing software company website using HTML and CSS is completed successfully
+The program for designing software company website using HTML and CSS is completed successfully.

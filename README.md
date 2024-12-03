@@ -805,4 +805,4 @@ contact gpt.html
 ## CONTACT 
 ![Contact](<Screenshot 2024-12-03 083355.png>)
 # RESULT:
-The program for designing software company website using HTML and CSS is completed successfully.
+The program for designing software company website using HTML and CSS is completed successfully

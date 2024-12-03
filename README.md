@@ -2,29 +2,21 @@
 # Date:
 # AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
-
 # DESIGN STEPS:
 ## Step 1:
 Requirement collection.
-
 ## Step 2:
 Creating the layout using HTML and CSS.
-
 ## Step 3:
 Updating the sample content.
-
 ## Step 4:
 Choose the appropriate style and color scheme.
-
 ## Step 5:
 Validate the layout in various browsers.
-
 ## Step 6:
 Validate the HTML code.
-
 ## Step 7:
 Publish the website in the given URL.
-
 # PROGRAM:
 resgpt.html
 ```
@@ -102,7 +94,6 @@ resgpt.html
             background: linear-gradient(to right, goldenrod, gold);
             transform: scale(1.1);
         }
-
         main {
             flex: 1;
             padding: 40px;
@@ -114,7 +105,6 @@ resgpt.html
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
             animation: fadeInUp 1.5s ease-in-out;
         }
-
         main p {
             font-size: 24px;
             font-weight: 400;
@@ -122,7 +112,6 @@ resgpt.html
             color: #f9f9f9;
             text-shadow: 1px 1px 3px black;
         }
-
         footer {
             background: rgba(0, 0, 0, 0.8); /* Transparent footer */
             color: white;
@@ -131,12 +120,10 @@ resgpt.html
             border-top: 2px solid goldenrod;
             box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
         }
-
         footer p {
             margin: 5px 0;
             font-size: 16px;
         }
-
         footer a {
             color: goldenrod;
             text-decoration: none;
@@ -144,31 +131,25 @@ resgpt.html
             font-size: 18px;
             transition: color 0.3s ease-in-out;
         }
-
         footer a:hover {
             color: #d4af37;
         }
-
         @media (max-width: 768px) {
             header h1 {
                 font-size: 50px;
                 letter-spacing: 5px;
             }
-
             nav a {
                 font-size: 16px;
                 padding: 8px 12px;
             }
-
             main p {
                 font-size: 20px;
             }
-
             footer p, footer a {
                 font-size: 16px;
             }
         }
-
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -178,7 +159,6 @@ resgpt.html
                 opacity: 1;
             }
         }
-
         @keyframes slideDown {
             from {
                 transform: translateY(-100%);
@@ -189,7 +169,6 @@ resgpt.html
                 opacity: 1;
             }
         }
-
         @keyframes fadeInUp {
             from {
                 transform: translateY(20px);
@@ -323,12 +302,10 @@ Menu enhanced.html
     </style>
 </head>
 <body>
-
 <header>
     <h1>Delicious Indian Bites</h1>
     <p>Your favorite spot for authentic Indian non-veg meals</p>
 </header>
-
 <div class="menu-section">
     <h2>Biriyani</h2>
     <div class="menu-grid">
@@ -364,7 +341,6 @@ Menu enhanced.html
         </div>
     </div>
 </div>
-
 <div class="menu-section">
     <h2>Starters</h2>
     <div class="menu-grid">
@@ -394,7 +370,6 @@ Menu enhanced.html
         </div>
     </div>
 </div>
-
 <div class="menu-section">
     <h2>Tandoori and Kebab</h2>
     <div class="menu-grid">
@@ -430,7 +405,6 @@ Menu enhanced.html
         </div>
     </div>
 </div>
-
 <div class="menu-section">
     <h2>Curries</h2>
     <div class="menu-grid">
@@ -466,7 +440,6 @@ Menu enhanced.html
         </div>
     </div>
 </div>
-
 <div class="menu-section">
     <h2>Breads</h2>
     <div class="menu-grid">
@@ -508,7 +481,6 @@ Menu enhanced.html
         </div>
     </div>
 </div>
-
 <div class="menu-section">
     <h2>Desserts</h2>
     <div class="menu-grid">
@@ -565,7 +537,8 @@ Menu enhanced.html
 </html>
 ```
 Administration enhanced.html
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -581,21 +554,18 @@ Administration enhanced.html
             font-family: Arial, sans-serif;
             background-color: #f8f8f8;
         }
-
         /* Header Section */
         header {
             text-align: center;
             background-color: #b5651d;
             padding: 20px 0;
         }
-
         header h1 {
             font-family: "Caveat", cursive;
             font-size: 50px;
             color: white;
             margin: 0;
         }
-
         /* Chef Profiles Section */
         .chefs-container {
             display: grid;
@@ -605,7 +575,6 @@ Administration enhanced.html
             max-width: 1200px;
             margin: auto;
         }
-
         .chef-card {
             background-color: white;
             border-radius: 10px;
@@ -614,35 +583,29 @@ Administration enhanced.html
             text-align: center;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
         .chef-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
-
         .chef-card img {
             width: 100%;
             object-fit: contain; /* Ensure the entire image fits without cropping */
             max-height: 300px; /* Allow flexibility but limit height */
         }
-
         .chef-details {
             padding: 20px;
         }
-
         .chef-details h1 {
             font-size: 20px;
             color: #b5651d;
             margin: 10px 0;
         }
-
         .chef-details h2,
         .chef-details h3 {
             font-size: 16px;
             color: #555;
             margin: 5px 0;
         }
-
         /* Footer Section */
         footer {
             text-align: center;
@@ -651,19 +614,16 @@ Administration enhanced.html
             padding: 10px 0;
             margin-top: 40px;
         }
-
         footer p {
             margin: 0;
         }
     </style>
 </head>
 <body>
-
     <!-- Header Section -->
     <header>
         <h1>Our Chefs</h1>
     </header>
-
     <!-- Chefs Profiles Section -->
     <div class="chefs-container">
         <div class="chef-card">
@@ -715,12 +675,9 @@ Administration enhanced.html
             </div>
         </div>
     </div>
-
-    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Foodie's Paradise. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
 ```
@@ -800,19 +757,16 @@ contact gpt.html
                 padding-left: 950px;
                 text-align: center;
             }
-
             /* Add styles for the anchor tags */
             a {
                 color: orangered;
                 text-decoration: none;
                 cursor: pointer;
             }
-
             /* Add a hover effect to indicate clickable links */
             a:hover {
                 text-decoration: underline;
             }
-            
         </style>
     </head>
     <body>
@@ -837,7 +791,6 @@ contact gpt.html
 ## HOME
 ![HOme](<Screenshot 2024-12-03 082026.png>)
 ## MENU
-
 ![alt text](<image (2).png>)
 
 ![alt text](<image (3).png>)
@@ -848,7 +801,6 @@ contact gpt.html
 
 ![alt text](<image (6).png>)
 ## ADMINISTRATION
-
 ![Administration](<image (7).png>)
 ## CONTACT 
 ![Contact](<Screenshot 2024-12-03 083355.png>)

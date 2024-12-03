@@ -549,13 +549,7 @@ Administration enhanced.html
         .chef-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-        .chef-card img {
-            width: 100%;
-            object-fit: contain; /* Ensure the entire image fits without cropping */
-            max-height: 300px; /* Allow flexibility but limit height */
-        }
-        .chef-details {
+    .chef-details {
             padding: 20px;
         }
         .chef-details h1 {
@@ -642,112 +636,6 @@ Administration enhanced.html
         <p>&copy; 2024 Foodie's Paradise. All rights reserved.</p>
     </footer>
 </body>
-</html>
-```
-contact gpt.html
-```
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-        <title>Contact Us</title>
-        <style>
-            #n1{
-                position: relative;
-                color: orangered;
-                font-size: 60px;
-                padding-left: 380px;
-                left: 0px;
-                top: 190px;
-                letter-spacing: 5px;
-            }
-            body{
-                background-image: url(Contact\ us\ img.jpg);
-                background-repeat: no-repeat;
-                background-size: 1700px 950px;
-            }
-            #n2{
-                position:relative;
-                color: aliceblue;
-                font-size: 80px;
-                padding-left: 480px;
-                top: 140px;
-                letter-spacing: 3px;
-                font-family: "Dancing Script", cursive;
-            }
-            #n3{
-                position: relative;
-                color: aliceblue;
-                font-size: 35px;
-                top: 255px;
-                padding-left: 240px;
-            }
-            #n4{
-                position: relative;
-                color: orangered;
-                font-size:31px;
-                top: 205px;
-                padding-left: 170px;
-                letter-spacing: 2px;
-            }
-            #n5{
-                position: relative;
-                color: aliceblue;
-                font-size: 35px;
-                top: 60px;
-                padding-left: 680px;
-            }
-            #n6{
-                position: relative;
-                color: orangered;
-                font-size:35px;
-                top: 8px;
-                padding-left: 505px;
-            }
-            #n7{
-                position: relative;
-                color: aliceblue;
-                font-size: 35px;
-                bottom: 135px;
-                padding-left: 1155px;
-            }
-            #n8{
-                position: relative;
-                color: orangered;
-                font-size: 31px;
-                bottom: 187px;
-                padding-left: 950px;
-                text-align: center;
-            }
-            /* Add styles for the anchor tags */
-            a {
-                color: orangered;
-                text-decoration: none;
-                cursor: pointer;
-            }
-            /* Add a hover effect to indicate clickable links */
-            a:hover {
-                text-decoration: underline;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 id="n1">PERFECTLY BALANCED</h1>
-        <h2 id="n2">Quality and Taste</h2>
-        <h5 id="n3">Phone:</h5>
-        <h5 id="n4">
-            <a href="tel:+914435443545">+91 4435443545</a>
-        </h5>
-        <h5 id="n5">Email:</h5>
-        <h5 id="n6">
-            <a href="mailto:foodierestaurant@foodie.com"><b>foodierestaurant@foodie.com</b></a>
-        </h5>
-        <h5 id="n7">Location:</h5>
-        <h5 id="n8">
-            <a href="https://www.google.com/maps?q=1,+Foodie+restaurant+OMR+street+Perungudi"><b>1, Foodie restaurant OMR street Perungudi</b></a>
-        </h5>
-    </body>
 </html>
 ```
 # OUTPUT:

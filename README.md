@@ -432,12 +432,6 @@ Menu enhanced.html
             <p>Fresh prawns cooked in a spicy, tangy gravy.</p>
             <div class="price">₹500</div>
         </div>
-        <div class="menu-item">
-            <img src="chettinad-chicken-gravy.jpg" alt="Chettinad Chicken Gravy">
-            <h3>Chettinad Chicken Gravy</h3>
-            <p>Chicken cooked in a spicy and flavorful Chettinad gravy.</p>
-            <div class="price">₹380</div>
-        </div>
     </div>
 </div>
 <div class="menu-section">
@@ -462,12 +456,6 @@ Menu enhanced.html
             <div class="price">₹80</div>
         </div>
         <div class="menu-item">
-            <img src="paratta.avif" alt="Parotta">
-            <h3>Parotta</h3>
-            <p>Flaky and soft South Indian flatbread.</p>
-            <div class="price">₹60</div>
-        </div>
-        <div class="menu-item">
             <img src="kizhi-paratta.jpeg" alt="Kizhi Parotta">
             <h3>Kizhi Parotta</h3>
             <p>Layered parotta wrapped in banana leaf.</p>
@@ -489,18 +477,6 @@ Menu enhanced.html
             <h3>Gulab Jamun</h3>
             <p>Sweet, syrup-soaked deep-fried dough balls.</p>
             <div class="price">₹100</div>
-        </div>
-        <div class="menu-item">
-            <img src="rasa-gulla.jpg" alt="Rasa Gulla">
-            <h3>Rasa Gulla</h3>
-            <p>Soft cheese balls soaked in sugar syrup.</p>
-            <div class="price">₹120</div>
-        </div>
-        <div class="menu-item">
-            <img src="badham-keer.jpg" alt="Badham Keer">
-            <h3>Badham Keer</h3>
-            <p>Sweet almond porridge with milk and sugar.</p>
-            <div class="price">₹150</div>
         </div>
         <div class="menu-item">
             <img src="rasamali.jpg" alt="Rasamalai">
@@ -538,11 +514,7 @@ Menu enhanced.html
 ```
 Administration enhanced.html
 ```
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chefs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -565,15 +537,6 @@ Administration enhanced.html
             font-size: 50px;
             color: white;
             margin: 0;
-        }
-        /* Chef Profiles Section */
-        .chefs-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 40px;
-            max-width: 1200px;
-            margin: auto;
         }
         .chef-card {
             background-color: white;
@@ -792,13 +755,9 @@ contact gpt.html
 ![HOme](<Screenshot 2024-12-03 082026.png>)
 ## MENU
 ![alt text](<image (2).png>)
-
 ![alt text](<image (3).png>)
-
 ![alt text](<image (4).png>)
-
 ![alt text](<image (5).png>)
-
 ![alt text](<image (6).png>)
 ## ADMINISTRATION
 ![Administration](<image (7).png>)

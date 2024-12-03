@@ -834,7 +834,9 @@ contact gpt.html
 </html>
 ```
 # OUTPUT:
+## HOME
 ![HOme](<Screenshot 2024-12-03 082026.png>)
+## MENU
 
 ![alt text](<image (2).png>)
 
@@ -845,9 +847,10 @@ contact gpt.html
 ![alt text](<image (5).png>)
 
 ![alt text](<image (6).png>)
+## ADMINISTRATION
 
 ![Administration](<image (7).png>)
-
+## CONTACT 
 ![Contact](<Screenshot 2024-12-03 083355.png>)
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.

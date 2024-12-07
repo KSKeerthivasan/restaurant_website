@@ -26,7 +26,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
-resgpt.html
+### Restaurant.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -229,7 +229,7 @@ resgpt.html
 </html>
 
 ```
-Menu enhanced.html
+### Menu.html
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -564,7 +564,7 @@ Menu enhanced.html
 </body>
 </html>
 ```
-Administration enhanced.html
+### Administration.html
 ```<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -724,7 +724,7 @@ Administration enhanced.html
 </body>
 </html>
 ```
-contact gpt.html
+### Contact.html
 ```
 <html>
     <head>
